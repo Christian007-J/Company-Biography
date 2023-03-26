@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<title>Index Page</title>
+</head>
+<body>
+
+	<nav class="navbar navbar-expand-xl navbar-dark bg-dark">
+	  <div class="container-fluid">
+	    <a class="navbar-brand" href="#">Navbar</a>
+	    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarDark" aria-controls="navbarDark" aria-expanded="false" aria-label="Toggle navigation">
+	      <span class="navbar-toggler-icon"></span>
+	    </button>
+	    <div class="collapse navbar-collapse show" id="navbarDark">
+	      <ul class="navbar-nav me-auto mb-2 mb-xl-0">
+	        <li class="nav-item">
+	          <a class="nav-link" aria-current="page" href="#">Home</a>
+	        </li>
+	        <li class="nav-item">
+	          <a class="nav-link" href="#">Features</a>
+	        </li>
+	        <li class="nav-item">
+	          <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+	        </li>
+	      </ul>
+	    </div>
+	  </div>
+	</nav>
+
+	<div class="d-flex align-items-start">
+	  <div class="nav flex-column nav-pills me-3" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+	    <a class="nav-link active" id="v-pills-home-tab" data-bs-toggle="pill" href="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-selected="true"><i class="bi bi-house-door"></i> Home</a>
+	    <a class="nav-link" id="v-pills-profile-tab" data-bs-toggle="pill" href="#v-pills-profile" role="tab" aria-controls="v-pills-profile" aria-selected="false"><i class="bi bi-person-circle"></i> Profile</a>
+	    <a class="nav-link" id="v-pills-messages-tab" data-bs-toggle="pill" href="#v-pills-messages" role="tab" aria-controls="v-pills-messages" aria-selected="false"> <i class="bi bi-gear-fill"></i> Settings</a>
+	    <a class="nav-link" id="v-pills-settings-tab" data-bs-toggle="pill" href="#v-pills-settings" role="tab" aria-controls="v-pills-settings" aria-selected="false"><i class="bi bi-chat-left-text-fill"></i> Feedback</a>
+	  </div>
+
+	  <div class="tab-content" id="v-pills-tabContent">
+	    <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
+	    	<div class="card">
+			  <div class="card-body">
+			  	<img src="graph.png" class="img-fluid" alt="...">
+			  </div>
+			</div>
+		</div>
+
+	    <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">
+	    	<table class="table caption-top">
+			  <caption><h3>List of users</h3></caption>
+			  <thead>
+			    <tr>
+			      <th scope="col">Id</th>
+			      <th scope="col">First</th>
+			      <th scope="col">Last</th>
+			      <th scope="col">Handle</th>
+			    </tr>
+			  </thead>
+			  <tbody>
+			    <tr>
+			      <th scope="row">1</th>
+			      <td>Mark</td>
+			      <td>Otto</td>
+			      <td>@mdo</td>
+			    </tr>
+			    <tr>
+			      <th scope="row">2</th>
+			      <td>Jacob</td>
+			      <td>Thornton</td>
+			      <td>@fat</td>
+			    </tr>
+			    <tr>
+			      <th scope="row">3</th>
+			      <td>Larry the Bird</td>
+			      <td>@twitter</td>
+			      <td>@larry</td>
+			    </tr>
+			  </tbody>
+			</table>
+		</div>
+
+	    <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">
+	    	<div class="row row-cols-1 row-cols-sm-2 g-3">
+			  <div class="col">
+			    <div class="card">
+			      <img src="assets/images/bs-images/img-2x1.png" class="card-img-top" alt="card-grid-image">
+			      <div class="card-body">
+			        <h5 class="card-title">Card title</h5>
+			        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+			      </div>
+			    </div>
+			  </div>
+			  <div class="col">
+			    <div class="card">
+			      <img src="assets/images/bs-images/img-2x1.png" class="card-img-top" alt="card-grid-image">
+			      <div class="card-body">
+			        <h5 class="card-title">Card title</h5>
+			        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+			      </div>
+			    </div>
+			  </div>
+			  <div class="col">
+			    <div class="card">
+			      <img src="assets/images/bs-images/img-2x1.png" class="card-img-top" alt="card-grid-image">
+			      <div class="card-body">
+			        <h5 class="card-title">Card title</h5>
+			        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+			      </div>
+			    </div>
+			  </div>
+			  <div class="col">
+			    <div class="card">
+			      <img src="assets/images/bs-images/img-2x1.png" class="card-img-top" alt="card-grid-image">
+			      <div class="card-body">
+			        <h5 class="card-title">Card title</h5>
+			        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+			      </div>
+			    </div>
+			  </div>
+			</div>
+		</div>
+
+	    <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab">
+		    <div class="card">
+		    <div class="card-body">
+				  	<form>
+				  	  <div class="row mb-3">
+					    <label for="inputPassword3" class="col-sm-2 col-form-label">Full Names</label>
+					    <div class="col-sm-10">
+					      <input type="text" class="form-control" id="inputPassword3" required>
+					    </div>
+					  </div>
+					  <div class="row mb-3">
+					    <label for="inputPassword3" class="col-sm-2 col-form-label">Phone Number</label>
+					    <div class="col-sm-10">
+					      <input type="text" class="form-control" id="inputPassword3" placeholder="Optional">
+					    </div>
+					  </div>
+					  <div class="row mb-3">
+					    <label for="inputEmail3" class="col-sm-2 col-form-label">Email</label>
+					    <div class="col-sm-10">
+					      <input type="email" class="form-control" id="inputEmail3" required>
+					    </div>
+					  </div>
+					  <div class="form-floating">
+						  <textarea class="form-control" placeholder="Please type your Comment(s)" id="floatingTextarea" style="height: 100px" required></textarea>
+						  <label for="floatingTextarea">Comment(s)</label>
+					  </div>
+					  <div class="buttons">
+						  <button type="submit" class="btn btn-primary">COMMENT</button>
+						  <button type="reset" class="btn btn-warning">CLEAR FORM</button>
+					  </div>
+
+					</form>
+				  </div>
+				</div>
+		</div>
+	  </div>
+	</div>
+
+	<div class="footer bg-danger">
+	<div class="">
+	<footer class="text-center text-lg-start text-white">
+    <!-- Grid container -->
+    <div class="container p-4">
+      <!--Grid row-->
+      <div class="row my-4">
+        <!--Grid column-->
+        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+
+          <div class="rounded-circle bg-white shadow-1-strong d-flex align-items-center justify-content-center mb-4 mx-auto" style="width: 150px; height: 150px;">
+            <img src="CEO.png" class="img-fluid" height="70" />
+          </div>
+
+          <p class="text-center">Our CEO The Giant Group of Companies</p>
+
+          <ul class="list-unstyled d-flex flex-row justify-content-center">
+            <li>
+              <a class="text-white px-2" href="#!">
+                <i class="bi bi-facebook"></i>
+              </a>
+            </li>
+            <li>
+              <a class="text-white px-2" href="#!">
+                <i class="bi bi-twitter"></i>
+              </a>
+            </li>
+            <li>
+              <a class="text-white ps-2" href="#!">
+                <i class="bi bi-whatsapp"></i>
+              </a>
+            </li>
+            <li>
+              <a class="text-white ps-2" href="#!">
+                <i class="bi bi-github"></i>
+              </a>
+            </li>
+          </ul>
+
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+          <h5 class="text-uppercase mb-4">Subsidiaries</h5>
+
+          <ul class="list-unstyled">
+            <li class="mb-2">
+              <a href="#" class="text-white" style="text-decoration: none;">The Giant Schools</a>
+            </li>
+            <li class="mb-2">
+              <a href="#" class="text-white" style="text-decoration: none;">The Giant Coaches</a>
+            </li>
+            <li class="mb-2">
+              <a href="#" class="text-white" style="text-decoration: none;">The Giant Hostels</a>
+            </li>
+            <li class="mb-2">
+              <a href="#" class="text-white" style="text-decoration: none;">The Giant Arcades</a>
+            </li>
+            <li class="mb-2">
+              <a href="#" class="text-white" style="text-decoration: none;">The Giant Technologies</a>
+            </li>
+            <li class="mb-2">
+              <a href="#" class="text-white" style="text-decoration: none;">The Giant SACCO</a>
+            </li>
+           </ul>
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+          <h5 class="text-uppercase mb-4">Community</h5>
+
+          <ul class="list-unstyled">
+            <li class="mb-2">
+              <a href="#!" class="text-white" style="text-decoration: none;">Opportunities</a>
+            </li>
+            <li class="mb-2">
+              <a href="#!" class="text-white" style="text-decoration: none;">Internships</a>
+            </li>
+            <li class="mb-2">
+              <a href="#!" class="text-white" style="text-decoration: none;">Out Reach</a>
+            </li>
+            <li class="mb-2">
+              <a href="#!" class="text-white" style="text-decoration: none;">Donations</a>
+            </li>
+            <li class="mb-2">
+              <a href="#!" class="text-white" style="text-decoration: none;">Grants</a>
+            </li>
+          </ul>
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+          <h5 class="text-uppercase mb-4">Contact</h5>
+
+          <ul class="list-unstyled">
+            <li>
+              <p><i class="bi bi-houses-fill"></i> Warsaw, 57 Street, Poland</p>
+            </li>
+            <li>
+              <p><i class="bi bi-telephone-inbound-fill"></i> + 01 234 567 89</p>
+            </li>
+            <li>
+              <p><i class="bi bi-envelope-at-fill"></i> info@thegiant.co.ug</p>
+            </li>
+            <li>
+              <p><i class="bi bi-youtube"></i> YouTube</p>
+            </li>
+            <li>
+              <p><i class="bi bi-tiktok"></i> TikTok</p>
+            </li>
+          </ul>
+        </div>
+        <!--Grid column-->
+      </div>
+      <!--Grid row-->
+    </div>
+    <!-- Grid container -->
+
+    <!-- Copyright -->
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+      © 2020 Copyright:
+      <a class="text-white" href="#" style="text-decoration: none;">The Giant Group of Companies</a>
+    </div>
+    <!-- Copyright -->
+  </footer>
+	</div>
+	</div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
