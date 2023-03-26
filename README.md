@@ -1,2 +1,5 @@
-# Log_Book
-A daily and weekly log book web application for internship students
+A parent company wedsite for managing it's subsidiaties
+
+#By Ainamani Christian
+
+#+256759009165
